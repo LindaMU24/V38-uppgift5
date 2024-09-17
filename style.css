@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    background-color: rgb(240, 232, 220);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    max-width: 1000px;
+    width: 100%;
+    height: 6rem;
+    margin: 1rem;
+    background: #eee;
+    display: flex;
+}
+article.reverse {
+    flex-direction: row-reverse; /* För att vända ordningen på boxarna */
+}
+article section {
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+.box1 { background-color: rgba(75, 0, 130, 1); flex: 0; }   /* Indigo */
+.box2 { background-color: rgba(85, 10, 140, 1); flex: 1; }
+.box3 { background-color: rgba(95, 20, 150, 1); flex: 1; }
+.box4 { background-color: rgba(105, 30, 160, 1); flex: 2; }
+.box5 { background-color: rgba(115, 40, 170, 1); flex: 3; }
+.box6 { background-color: rgba(125, 50, 180, 1); flex: 5; }
+.box7 { background-color: rgba(135, 60, 190, 1); flex: 8; }
+.box8 { background-color: rgba(145, 70, 200, 1); flex: 13; }
+.box9 { background-color: rgba(155, 80, 210, 1); flex: 21; }
+.box10 { background-color: rgba(165, 90, 220, 1); flex: 34; }
